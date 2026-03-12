@@ -2,6 +2,8 @@
 
 Video review and collaboration workflows powered by the Frame.io V4 API.
 
+The plugin works with any Frame.io workspace you're invited to. It authenticates via your Adobe ID, so you'll have access to the same workspaces and projects you see in Frame.io — with the same permission levels (viewer, collaborator, admin, etc.).
+
 ## Prerequisites
 
 - [Adobe Developer Console](https://developer.adobe.com/console) account with Frame.io API access
@@ -32,11 +34,12 @@ In Cowork, use the plugin installer and provide the URL above. Cowork will clone
    vim .mcp.json
    ```
 
-2. Set your account details in `frameio.local.md`:
+2. Optionally set default account/workspace in `frameio.local.md`:
    ```
    account_id: <your-account-id>
    workspace_id: <your-workspace-id>
    ```
+   These are defaults for convenience — you can navigate to any workspace you have access to.
 
 3. The MCP server starts automatically via `setup.sh` when Claude connects.
 
