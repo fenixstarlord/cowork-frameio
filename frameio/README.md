@@ -10,21 +10,35 @@ Video review and collaboration workflows powered by the Frame.io V4 API.
 
 ## Installation
 
+### Install via URL (recommended)
+
+Install directly in Claude Cowork using the GitHub repository URL:
+
+```
+https://github.com/fenixstarlord/cowork-frameio
+```
+
+In Cowork, use the plugin installer and provide the URL above. Cowork will clone the repository and register the `frameio/` directory as a plugin automatically.
+
+### Install manually
+
 1. Clone or copy the `frameio/` directory into your Cowork plugins folder.
 
-2. Configure OAuth credentials — see [CONNECTORS.md](CONNECTORS.md) for full setup:
+### Post-install configuration
+
+1. Configure OAuth credentials — see [CONNECTORS.md](CONNECTORS.md) for full setup:
    ```bash
    # Edit .mcp.json with your Adobe Developer Console credentials
    vim .mcp.json
    ```
 
-3. Set your account details in `frameio.local.md`:
+2. Set your account details in `frameio.local.md`:
    ```
    account_id: <your-account-id>
    workspace_id: <your-workspace-id>
    ```
 
-4. The MCP server starts automatically via `setup.sh` when Claude connects.
+3. The MCP server starts automatically via `setup.sh` when Claude connects.
 
 ## Quick Start
 
