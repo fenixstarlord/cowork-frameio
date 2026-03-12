@@ -145,7 +145,7 @@ Folders with many children are paginated. When `frameio_list_folder` returns res
 
 ### Overview
 
-Version stacks group multiple versions of the same asset (v1, v2, v3...) into a single logical unit. In V4, version stacks are **read-only** (create/update endpoints are coming soon).
+Version stacks group multiple versions of the same asset into a single logical unit. Version stacks are currently **read-only** (create/update endpoints are coming soon).
 
 ### Step-by-Step
 

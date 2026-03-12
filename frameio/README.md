@@ -65,4 +65,4 @@ frameio/
 
 ## API
 
-This plugin targets the Frame.io V4 API exclusively. It does not use the deprecated V2 API or the legacy `frameioclient` Python SDK.
+This plugin targets the Frame.io V4 API exclusively.

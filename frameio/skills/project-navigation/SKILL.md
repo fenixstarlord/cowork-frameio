@@ -52,7 +52,7 @@ Before navigating any resources, establish which account and user context you ar
 
 ### Overview
 
-Workspaces (called "Teams" in V2) are organizational containers within an account. Each workspace contains projects.
+Workspaces are organizational containers within an account. Each workspace contains projects.
 
 ### Step-by-Step
 

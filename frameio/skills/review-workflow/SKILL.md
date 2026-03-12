@@ -30,7 +30,7 @@ Create and manage review workflows in Frame.io. This skill covers creating share
 
 ### Overview
 
-Shares are the V4 replacement for V2 "Review Links" and "Presentation Links." A share bundles one or more assets into a reviewable link that can be sent to internal or external reviewers.
+A share bundles one or more assets into a reviewable link that can be sent to internal or external reviewers.
 
 ### Step-by-Step
 

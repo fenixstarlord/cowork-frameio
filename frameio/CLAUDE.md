@@ -6,22 +6,17 @@ This plugin enables video review and collaboration workflows
 through the Frame.io V4 API.
 
 ## Frame.io Terminology
-Use these terms precisely. V4 renamed several concepts:
+Use these terms precisely:
 - **Account**: Top-level org. Determines subscription and ownership.
-- **Workspace**: Organizational container (was "Team" in V2).
+- **Workspace**: Organizational container for projects and members.
 - **Project**: Contains all assets for a body of work.
 - **Folder**: Directory within a project. Projects have a `root_folder_id`.
 - **File**: Any uploaded asset (video, audio, image, PDF).
 - **Version Stack**: Ordered container of Files representing versions.
-- **Share**: A link for external review (was "Review Link" in V2).
+- **Share**: A link for external review.
 - **Collection**: Dynamic grouping of assets by metadata/custom fields.
 - **Custom Fields**: User-defined metadata (select, rating, text, status).
 - **Comment**: Feedback on an asset, may include timecode + annotation.
-
-NEVER use V2 terminology in user-facing output:
-  - Say "Workspace" not "Team"
-  - Say "File" not "Asset" (unless contextually obvious)
-  - Say "Share" not "Review Link" or "Presentation Link"
 
 ## API Context
 - Base URL: `https://api.frame.io/v4/`
