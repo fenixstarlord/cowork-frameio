@@ -1,5 +1,7 @@
 ---
 description: "Check the status of reviews on a Frame.io project. Shows share links, comment counts, and approval statuses in a summary table."
+disable-model-invocation: true
+argument-hint: "[project-name]"
 ---
 
 # /frameio:review-status

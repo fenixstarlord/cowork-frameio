@@ -13,6 +13,9 @@ tools:
   - Read
   - Write
   - Bash
+mcpServers:
+  - frameio
+maxTurns: 50
 ---
 
 # Upload Agent

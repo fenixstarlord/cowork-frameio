@@ -15,6 +15,9 @@ tools:
   - frameio_list_comments
   - frameio_list_folder
   - frameio_get_file
+mcpServers:
+  - frameio
+maxTurns: 30
 ---
 
 # Review Coordinator Agent

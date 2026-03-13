@@ -1,5 +1,7 @@
 ---
 description: "Create a share or review link for Frame.io assets. Configure access level, expiration, and password protection, then return the shareable URL."
+disable-model-invocation: true
+argument-hint: "[asset-name-or-id]"
 ---
 
 # /frameio:create-share

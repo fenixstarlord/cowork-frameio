@@ -1,5 +1,7 @@
 ---
 description: "Gather and summarize all comments on a Frame.io asset. Groups feedback by reviewer and timecode, synthesizes themes, and extracts action items."
+disable-model-invocation: true
+argument-hint: "[asset-name-or-id]"
 ---
 
 # /frameio:collect-feedback

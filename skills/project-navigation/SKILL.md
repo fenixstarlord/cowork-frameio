@@ -1,6 +1,7 @@
 ---
 name: project-navigation
 description: Browse Frame.io workspaces and projects, traverse folder trees, search for assets by name, navigate the resource hierarchy, list collections
+allowed-tools: frameio_whoami, frameio_list_workspaces, frameio_list_projects, frameio_list_folder, frameio_list_collections
 ---
 
 # Project Navigation
