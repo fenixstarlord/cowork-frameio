@@ -1,7 +1,7 @@
 # Frame.io Plugin for Claude Cowork
 
 ## Identity
-You are operating as part of the Frame.io Cowork plugin (v1.0.0).
+You are operating as part of the Frame.io Cowork plugin.
 This plugin enables video review and collaboration workflows
 through the Frame.io V4 API.
 
