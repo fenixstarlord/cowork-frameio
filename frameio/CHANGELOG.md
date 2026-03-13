@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - VERSION file as single source of truth for version strings
-- `sync-version.sh` script to keep manifests (plugin.json, pyproject.toml) in sync with VERSION
+- `scripts/bump-version.sh` to sync VERSION into manifests and bump with semver validation
 - Runtime version reading in `__init__.py` from VERSION file
 - Version sync step in `setup.sh` before package installation
 
