@@ -27,6 +27,25 @@ Fetch ALL of these pages and extract the full content. Do them in parallel:
 5. **Knowledge work plugins repo**: https://github.com/anthropics/knowledge-work-plugins
    - Extract: directory structure patterns, how official Anthropic plugins are organized
 
+6. **Hooks documentation**: https://code.claude.com/docs/en/hooks
+   - Extract: hook events (PreToolUse, PostToolUse, SessionStart, SubagentStart, etc.), hook types (command, prompt, agent), exit codes, input schemas
+
+7. **MCP documentation**: https://code.claude.com/docs/en/mcp
+   - Extract: MCP server configuration format, stdio/http/sse transport types, environment variables, server lifecycle
+
+8. **Plugin marketplaces**: https://code.claude.com/docs/en/plugin-marketplaces
+   - Extract: marketplace.json format, distribution patterns, versioning requirements
+
+9. **Discover and install plugins**: https://code.claude.com/docs/en/discover-plugins
+   - Extract: installation scopes (user, project, local, managed), team marketplace configuration
+
+**Additional reference repos on GitHub:**
+- https://github.com/anthropics/knowledge-work-plugins — 11 official Anthropic plugins (sales, legal, finance, etc.)
+- https://github.com/anthropics/financial-services-plugins — Financial data partner plugins
+- https://github.com/anthropics/claude-plugins-official — Curated plugin directory
+- https://github.com/anthropics/claude-code/tree/main/plugins — Example plugins from Claude Code repo
+- https://github.com/ComposioHQ/awesome-claude-plugins — Community curated plugin list
+
 Save key findings as you read — you'll need them for the audit.
 
 ### Step 2: Audit the current plugin
