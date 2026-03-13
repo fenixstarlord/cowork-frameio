@@ -5,7 +5,6 @@
   "author": { "name": "" },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fenixstarlord/cowork-frameio",
-    "directory": "frameio"
+    "url": "https://github.com/fenixstarlord/cowork-frameio"
   }
 }
