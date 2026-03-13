@@ -1,5 +1,7 @@
 ---
 description: "Upload a file or folder of renders to Frame.io. Validates the local file, selects a destination project and folder, uploads via the V4 API, and confirms success."
+disable-model-invocation: true
+argument-hint: "[file-path] [project/folder]"
 ---
 
 # /frameio:upload-asset

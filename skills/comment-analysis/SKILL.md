@@ -1,6 +1,7 @@
 ---
 name: comment-analysis
 description: Analyze Frame.io comments, group feedback by reviewer and timecode, summarize themes, identify unresolved threads, extract action items
+allowed-tools: frameio_list_comments, frameio_resolve_comment, frameio_get_file
 ---
 
 # Comment Analysis

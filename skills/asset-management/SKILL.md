@@ -1,6 +1,7 @@
 ---
 name: asset-management
 description: Upload files to Frame.io, organize folders, manage version stacks, update metadata and custom fields, download assets
+allowed-tools: frameio_create_file, frameio_complete_upload, frameio_list_folder, frameio_create_folder, frameio_get_file, frameio_update_file, frameio_delete_file, frameio_get_custom_fields, frameio_update_custom_field
 ---
 
 # Asset Management

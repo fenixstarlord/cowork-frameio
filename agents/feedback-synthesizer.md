@@ -10,6 +10,9 @@ tools:
   - frameio_resolve_comment
   - frameio_get_file
   - frameio_list_folder
+mcpServers:
+  - frameio
+maxTurns: 30
 ---
 
 # Feedback Synthesizer Agent

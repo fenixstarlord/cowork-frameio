@@ -1,6 +1,7 @@
 ---
 name: review-workflow
 description: Create share links for Frame.io reviews, set access levels and passwords, track approval status, manage reviewer access, set due dates
+allowed-tools: frameio_create_share, frameio_list_shares, frameio_delete_share, frameio_get_custom_fields, frameio_update_custom_field, frameio_bulk_update_fields
 ---
 
 # Review Workflow
