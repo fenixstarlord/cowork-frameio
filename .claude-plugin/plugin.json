@@ -2,9 +2,9 @@
   "name": "frameio",
   "version": "1.0.0",
   "description": "Video review and collaboration with Frame.io. Upload assets, manage reviews, collect feedback, and orchestrate approval workflows.",
-  "author": { "name": "" },
+  "author": { "name": "fenixstarlord" },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fenixstarlord/cowork-frameio"
+    "url": "https://github.com/fenixstarlord/cowork-frameio.git"
   }
 }
