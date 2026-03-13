@@ -49,20 +49,7 @@ if [ -f "$PYPROJECT" ]; then
     echo "  Updated $PYPROJECT"
 fi
 
-# 3. __init__.py
-INIT_PY="$PLUGIN_ROOT/mcp-server/src/frameio_mcp/__init__.py"
-if [ -f "$INIT_PY" ]; then
-    tmp=$(mktemp)
-    sed "s/__version__ = \"[^\"]*\"/__version__ = \"$VERSION\"/" "$INIT_PY" > "$tmp" && mv "$tmp" "$INIT_PY"
-    echo "  Updated $INIT_PY"
-fi
-
-# 4. CLAUDE.md (plugin-level, version in Identity section)
-CLAUDE_MD="$PLUGIN_ROOT/CLAUDE.md"
-if [ -f "$CLAUDE_MD" ]; then
-    tmp=$(mktemp)
-    sed "s/(v[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*[^)]*)/(v$VERSION)/" "$CLAUDE_MD" > "$tmp" && mv "$tmp" "$CLAUDE_MD"
-    echo "  Updated $CLAUDE_MD"
-fi
+# 3. __init__.py reads VERSION at runtime via pathlib — no sed needed.
+# 4. CLAUDE.md no longer contains a hardcoded version string.
 
 echo "Done. All files now at version $VERSION."

@@ -13,6 +13,12 @@ if [ ! -d ".venv" ]; then
     uv venv
 fi
 
+# Sync VERSION into manifest files before install
+PLUGIN_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+if [ -f "$PLUGIN_DIR/scripts/bump-version.sh" ]; then
+    bash "$PLUGIN_DIR/scripts/bump-version.sh"
+fi
+
 uv pip install -e . --quiet
 
 exec uv run python -m frameio_mcp.server
