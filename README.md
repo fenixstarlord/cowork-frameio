@@ -18,11 +18,11 @@ Install directly in Claude Cowork using the GitHub repository URL:
 https://github.com/fenixstarlord/cowork-frameio
 ```
 
-In Cowork, use the plugin installer and provide the URL above. Cowork will clone the repository and register the `frameio/` directory as a plugin automatically.
+In Cowork, use the plugin installer and provide the URL above. Cowork will clone the repository and register it as a plugin automatically.
 
 ### Install manually
 
-1. Clone or copy the `frameio/` directory into your Cowork plugins folder.
+1. Clone or copy this repository into your Cowork plugins folder.
 
 ### Post-install configuration
 
@@ -52,13 +52,12 @@ In Cowork, use the plugin installer and provide the URL above. Cowork will clone
 ## Plugin Structure
 
 ```
-frameio/
-├── .claude-plugin/plugin.json   Plugin manifest
-├── .mcp.json                    MCP server configuration
-├── CLAUDE.md                    Agent instructions
-├── CONNECTORS.md                OAuth setup guide
-├── frameio.local.md             User-specific config
-├── skills/                      Domain expertise (4 skills)
+.claude-plugin/plugin.json       Plugin manifest
+.mcp.json                        MCP server configuration
+CLAUDE.md                        Agent instructions
+CONNECTORS.md                    OAuth setup guide
+frameio.local.md                 User-specific config
+skills/                          Domain expertise (4 skills)
 │   ├── asset-management/        Upload, organize, version files
 │   ├── review-workflow/         Share links, approvals, reviews
 │   ├── comment-analysis/        Feedback parsing and synthesis
