@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import sys
 import time
 from pathlib import Path
 from typing import Any
@@ -52,7 +53,12 @@ class TokenStore:
         try:
             self.path.chmod(0o600)
         except OSError:
-            pass
+            if sys.platform == "win32":
+                logger.warning(
+                    "Cannot restrict file permissions on Windows. "
+                    "Token file at %s may be readable by other users.",
+                    self.path,
+                )
 
     # ------------------------------------------------------------------
     # Token access
